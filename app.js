@@ -94,7 +94,7 @@ oApp.post('/api/media/', upload.single('file'), function(req, res) {
 
 });
 
-oApp.get('/api/media/:id', function(req, res) {
+/*oApp.get('/api/media/:id', function(req, res) {
 
   MediaFile.findOne({ id: req.params.id }, function (err, mediaFile) {
     if (err || mediaFile === null) {
@@ -113,7 +113,7 @@ oApp.get('/api/media/:id', function(req, res) {
     });
 
   });
-});
+});*/
 
 oApp.get('/api/media', function(req, res){
 
