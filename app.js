@@ -17,7 +17,7 @@ let oApp = express();
 oApp.use(bodyParser.json());
 
 //Motor de Vistas
-oApp .set('view engine', 'ejs');
+//oApp .set('view engine', 'ejs');
 
 // connect to mongodb
 require('./server/db/mongo-connect.js');
@@ -36,7 +36,7 @@ conn.once('open', function () {
 var upload = multer();
 
 
-oApp.get('/', function(req, res){
+/*oApp.get('/', function(req, res){
 
   gfs.files.find().toArray(function (err, files){
     if (!files || files.length === 0){
@@ -53,7 +53,7 @@ oApp.get('/', function(req, res){
   })
 
 })
-
+*/
 
 
 oApp.post('/api/media/', upload.single('file'), function(req, res) {
