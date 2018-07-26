@@ -2,7 +2,7 @@
 
 let express     = require('express');
 let bodyParser  = require('body-parser');
-let cfenv       = require('cfenv');
+
 let fs          = require('fs');
 let multer      = require('multer');
 let streamBuffers = require('stream-buffers');
