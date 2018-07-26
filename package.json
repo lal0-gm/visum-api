@@ -1,0 +1,25 @@
+{
+  "name": "api_visum_beta",
+  "version": "1.0.0",
+  "author": {
+    "name": "Lalo"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cfenv": "^1.0.3",
+    "ejs": "^2.6.1",
+    "express": "^4.14.0",
+    "file-system": "^2.2.2",
+    "gridfs-stream": "^1.1.1",
+    "mongoose": "^5.2.5",
+    "multer": "1.2.1",
+    "path": "^0.12.7",
+    "stream-buffers": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
