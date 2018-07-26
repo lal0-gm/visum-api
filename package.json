@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "body-parser": "^1.15.2",
-    "cfenv": "^1.0.3",
-    "ejs": "^2.6.1",
+   
+    
     "express": "^4.14.0",
     "file-system": "^2.2.2",
     "gridfs-stream": "^1.1.1",
